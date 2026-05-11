@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing Lift O.S - Copiar Textos</title>
+  <style>
+    :root {
+      --orange: #ea580c;
+      --orange-hover: #c2410c;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      color: var(--orange);
+      font-size: 2rem;
+      margin-bottom: 5px;
+    }
+    .header p {
+      color: var(--muted);
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: var(--orange);
+      font-size: 1.3rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+    .text-content {
+      background: #f1f5f9;
+      padding: 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      font-family: inherit;
+      color: #334155;
+      max-height: 400px;
+      overflow-y: auto;
+      margin-bottom: 15px;
+      border: 1px solid var(--border);
+    }
+    .btn-copy {
+      background: var(--orange);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-copy:hover {
+      background: var(--orange-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+    }
+    .btn-copy.copied {
+      background: #16a34a; /* Verde ao copiar */
+    }
+    .tags {
+      margin-top: 12px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      background: #fff7ed;
+      padding: 8px 12px;
+      border-radius: 6px;
+      border-left: 4px solid var(--orange);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Lift O.S - Textos de Marketing</h1>
+    <p>Clique no botão para copiar o texto e cole diretamente nas suas redes sociais.</p>
+  </div>
+
+  <div class="container">
+
+    <!-- OPÇÃO 1 -->
+    <div class="card">
+      <h2>📱 Opção 1: Post para Instagram / LinkedIn (Dor x Solução)</h2>
+      <div id="text1" class="text-content">Chega de OS feita à mão e no WhatsApp! 🛑📋
+
+Gerenciar a manutenção de empilhadeiras não precisa ser um caos de papéis amassados, fotos soltas no WhatsApp e peças que somem do estoque. 
+
+Apresentamos o Lift O.S - PRO ⚙️🚜
+O sistema de Ordem de Serviço feito sob medida para quem vive da manutenção de empilhadeiras e máquinas pesadas!
+
+O que o Lift O.S faz por você?
+✅ Controle total do Horímetro: Registre fotos do horímetro e nunca mais perca o momento certo da preventiva.
+✅ Preventivas Inteligentes: O sistema avisa quando a empilhadeira está perto do prazo de troca de óleo ou revisão com base nas horas de trabalho.
+✅ Estoque na ponta do lápis: Saiba exatamente quantos filtros e peças você tem. Baixa automática ao fechar a OS!
+✅ Do Orçamento à Aprovação: Gere orçamentos profissionais, envie por WhatsApp/PDF e transforme em OS com 1 clique após a assinatura digital do cliente.
+✅ Jornada do Técnico: Rastreie a localização, o deslocamento (KM) e o tempo exato gasto em cada serviço.
+✅ 100% Mobile: O técnico usa pelo celular, tira fotos do serviço, preenche o checklist e coleta a assinatura do cliente na hora - mesmo sem internet! 📱✍️
+
+Menos burocracia, mais produtividade. A sua oficina no século 21! 🚀
+
+👉 Saiba mais: www.LiftOS.pro 
+📞 Suporte: (98) 98824-8877</div>
+      <button class="btn-copy" onclick="copyToClipboard('text1', this)">📋 Copiar Texto</button>
+      <div class="tags">
+        <strong>Hashtags sugeridas:</strong> #ManutencaoDeEmpilhadeiras #LiftOS #GestaoDeManutencao #CMMS #OrdemDeServico #Empilhadeira #ManutencaoPreventiva #OficinaMecanica #GestaoDeEstoque #SistemaOS
+      </div>
+    </div>
+
+    <!-- OPÇÃO 2 -->
+    <div class="card">
+      <h2>⚡ Opção 2: Post Curto (Reels / TikTok / Stories)</h2>
+      <div id="text2" class="text-content">Como estão as Ordens de Serviço da sua oficina de empilhadeiras? Ainda é papel e caneta? 📄✍️
+
+No Lift O.S, o técnico chega, escaneia o horímetro 🕒, preenche o checklist no celular 📱, usa as peças do estoque (que já dá baixa automática) 🔧, e o cliente assina na tela 📝. Tudo vira PDF e vai pro WhatsApp do cliente em segundos! E o melhor: o sistema te avisa quando a preventiva está perto do vencimento por horímetro! 🚜💡
+
+Elimine o retrabalho. Use o Lift O.S PRO.
+🔗 www.LiftOS.pro</div>
+      <button class="btn-copy" onclick="copyToClipboard('text2', this)">📋 Copiar Texto</button>
+    </div>
+
+    <!-- OPÇÃO 3 -->
+    <div class="card">
+      <h2>🏢 Opção 3: Foco B2B / Donos de Frotas (LinkedIn)</h2>
+      <div id="text3" class="text-content">Você sabe qual é o custo exato de manutenção por horímetro das suas empilhadeiras? 📉🚜
+
+A falta de rastreabilidade na manutenção de frotas gera custos ocultos: peças que somem, preventivas atrasadas e tempo perdido com processos manuais.
+
+O Lift O.S - PRO é a solução definitiva de CMMS desenvolvida especialmente para o setor de empilhadeiras e máquinas pesadas.
+
+Diferenciais que impactam o seu bolso:
+📊 Previsibilidade de Falhas: Cronograma de preventivas baseado no horímetro real da máquina.
+📦 Gestão de Peças e Custos: Integração direta entre Estoque e OS. Saiba o custo exato de cada reparo.
+🤝 Transparência com o Cliente: Orçamento digital com assinatura do cliente e envio automático por e-mail/WhatsApp.
+⏱️ Produtividade da Equipe: Controle de jornada do técnico, tempo de execução do serviço e GPS de chegada/saída.
+
+Modernize a operação da sua oficina e ganhe a confiança dos seus clientes.
+🌐 Acesse: www.LiftOS.pro
+📞 Fale conosco: (98) 98824-8877</div>
+      <button class="btn-copy" onclick="copyToClipboard('text3', this)">📋 Copiar Texto</button>
+      <div class="tags">
+        <strong>Hashtags sugeridas:</strong> #GestaoDeFrota #ManutencaoIndustrial #Empilhadeiras #LiftOS #ManutencaoPreditiva #InovacaoNaManutencao #GestaoDeCustos #OperacoesLogisticas
+      </div>
+    </div>
+
+    <!-- OPÇÃO 4 -->
+    <div class="card">
+      <h2>💡 Opção 4: Resumo de "Elevator Pitch" (Bio / Descrição rápida)</h2>
+      <div id="text4" class="text-content">O Lift O.S PRO é o sistema de gestão de Ordens de Serviço e manutenção projetado para oficinas e frotas de empilhadeiras. Eliminamos o papel e o retrabalho, centralizando todo o ciclo do serviço: do orçamento à assinatura digital do cliente. Com controle preciso de horímetro, estoque integrado, alertas de preventivas e acompanhamento em tempo real da jornada do técnico, transformamos a sua operação em uma máquina de eficiência e lucratividade. Saiba mais em www.LiftOS.pro</div>
+      <button class="btn-copy" onclick="copyToClipboard('text4', this)">📋 Copiar Texto</button>
+    </div>
+
+  </div>
+
+  <script>
+    function copyToClipboard(elementId, button) {
+      const textElement = document.getElementById(elementId);
+      const textToCopy = textElement.innerText;
+
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        // Feedback visual no botão
+        const originalText = button.innerHTML;
+        button.innerHTML = "✅ Texto Copiado!";
+        button.classList.add("copied");
+
+        // Voltar ao normal após 2 segundos
+        setTimeout(() => {
+          button.innerHTML = originalText;
+          button.classList.remove("copied");
+        }, 2000);
+      }).catch(err => {
+        // Fallback caso o navegador não suporte a API Clipboard (mais antigo)
+        const range = document.createRange();
+        range.selectNode(textElement);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        
+        try {
+          document.execCommand('copy');
+          const originalText = button.innerHTML;
+          button.innerHTML = "✅ Texto Copiado!";
+          button.classList.add("copied");
+          setTimeout(() => {
+            button.innerHTML = originalText;
+            button.classList.remove("copied");
+          }, 2000);
+        } catch (e) {
+          alert("Falha ao copiar o texto. Por favor, selecione e copie manualmente.");
+        }
+        
+        window.getSelection().removeAllRanges();
+      });
+    }
+  </script>
+
+</body>
+</html>
